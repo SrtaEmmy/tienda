@@ -1,0 +1,68 @@
+body{
+    background-color: #eee;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.carrito{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 100%;
+
+    position: fixed;
+    top: 8%;
+    right: 1%;
+    z-index: 100;
+
+}
+
+.btn.btnAgregar{
+    background-color: #FAD7A1; /*#FEB692*/
+}
+.btn.btnAgregar:hover{
+    background-color: #FEB692; /*#FEB692*/
+}
+
+.bg-yellow{
+    background-color: #FAD7A1;
+}
+
+
+  /* pie de pagina[ */
+footer {
+    background-color: #FAD7A1;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+
+    margin-top: auto;
+  }
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .ul2 p{
+    line-height: 0.5;
+  }
+  /* ]pie de pagina  */
+
+  .mensaje{
+    font-size: larger;
+    font-style: italic;
+  }
+
